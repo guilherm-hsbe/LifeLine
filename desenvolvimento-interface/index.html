@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,6 +7,12 @@
 
     <!-- Ícone -->
     <link rel="icon" href="images/icons/stethoscope-solid-svgrepo-com.svg">
+
+    <!-- Fontes -->
+    <!--poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style1.css">
@@ -19,26 +25,26 @@
 </head>
 
 <body>
-    <header>
-        <!--* navbar -->
+    <header class="mb-5">
+        <!--! navbar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid mx-auto col-xxl-10 col-xl-10 col-lg-10 col-md-12">
-                <a class="navbar-brand fw-bold me-4 fs-4" draggable="false" href="#">
-                    <i class="fa-solid fa-stethoscope me-1" style="color: #1d5fdb;"></i>
+                <a class="navbar-brand fw-bold me-4 fs-4 nav-link-main" draggable="false" href="index.html">
+                    <i class="fa-solid fa-stethoscope me-1 nav-main-icon" style="color: #1d5fdb;"></i>
                     Lifeline
                 </a>
 
-                <!-- navbar-toggler -->
+                <!--* navbar-toggler -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa-solid fa-bars"></i>
                 </button>
 
-                <!-- navbar-links -->
+                <!--* navbar-links -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav text-nowrap">
                         <li class="nav-item">
-                            <a class="nav-link link-nav-1 active" aria-current="page" draggable="false" href="#">Início</a>
+                            <a class="nav-link link-nav-1 active" aria-current="page" draggable="false" href="index.html">Início</a>
                         </li>
 
                         <li class="nav-item">
@@ -55,13 +61,13 @@
                     </ul>
                 </div>
 
-                <!-- search-bar -->
-                <div class="d-flex z-1 position-relative w-50">
-                    <div class="position-absolute" style="left:1rem; top:5px">
+                <!--* search-bar -->
+                <div class="d-flex align-items-center z-1 position-relative w-50">
+                    <div class="position-absolute" style="left:1rem;">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
 
-                    <div class="position-absolute pe-1 ps-1 fw-bold rounded-2 bg-secondary-subtle user-select-none" style="right:0.5rem; top:7px; font-size:14px;">
+                    <div class="position-absolute pe-1 ps-1 fw-bold rounded-2 bg-secondary-subtle user-select-none fs-14" style="right:0.5rem;">
                         CTRL + K
                     </div>
 
@@ -79,12 +85,18 @@
         </nav>
     </header>
 
-    <!--* conteudo -->
+    <!--! conteudo -->
     <div class="container">
-        
+        <div class="col mx-auto">
+
+            <!--? apresentação -->
+            <div class="text-center">
+                <h1 class="fw-bold fs-54">Lifeline, o seu Portal de Saúde</h1>
+            </div>
+        </div>
     </div>
 
-    <!--* footer -->
+    <!--! footer -->
     <footer class="p-2 pt-3 bg-light text-dark">
         <div class="row">
             <div class="col text-center">
@@ -92,16 +104,16 @@
                 <p class="mb-2">&copy; 2023 Lifeline. Nenhum direito reservado.</p>
 
                 <p class="mb-0">
-                    <a href="">Sobre</a> 
-                    <span class="text-secondary">|</span>
+                    <a href="" class="link-1" draggable="false">Sobre</a> 
+                    <span class="text-secondary user-select-none">|</span>
 
-                    <a href="">Contato</a>
-                    <span class="text-secondary">|</span>
+                    <a href="" class="link-1" draggable="false">Contato</a>
+                    <span class="text-secondary user-select-none">|</span>
 
-                    <a href="">Política de Privacidade</a> 
-                    <span class="text-secondary">|</span> 
+                    <a href="" class="link-1" draggable="false">Política de Privacidade</a> 
+                    <span class="text-secondary user-select-none">|</span> 
 
-                    <a href="">Segurança</a> 
+                    <a href="" class="link-1" draggable="false">Segurança</a> 
                 </p>
             </div>
         </div>
