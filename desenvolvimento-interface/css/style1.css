@@ -1,6 +1,33 @@
+/** ─── Propriedades Customizadas ────────────────────────────────────────────────────────────────────────── */
+
+:root {
+    /*? color-text */
+    --cl-tx-blue-main: #1d5fdb;
+    --cl-tx-grey-blue-subtle: #637180;
+
+    /*? color-background */
+    /*...empty*/
+    
+    /*? size-pixel */
+    --size-px-1: 12px;
+    --size-px-2: 13px;
+    --size-px-3: 14px;
+    --size-px-4: 54px;
+}
+
+/** ─── Classes Customizadas ────────────────────────────────────────────────────────────────────────── */
+
+/* font-sizes */
+.fs-12 { font-size: var(--size-px-1); }
+.fs-13 { font-size: var(--size-px-2); }
+.fs-14 { font-size: var(--size-px-3); }
+.fs-54 { font-size: var(--size-px-4); }
+
+/** ─── Estilos Globais ────────────────────────────────────────────────────────────────────────── */
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 footer {
@@ -11,10 +38,44 @@ footer {
     text-align: center;
 }
 
+/** ─── Componentes ────────────────────────────────────────────────────────────────────────── */
+
+/*? ─── Navbar ───────────────────────────────────── */
 .link-nav-1 {
     transition: 0.2s !important;
     font-weight: 600 !important;
 }
 .link-nav-1:hover {
-    color: #1d5fdb !important;
+    color: var(--cl-tx-blue-main) !important;
+}
+
+/*? ─── Links ───────────────────────────────────── */
+
+/* navbar-link-main */
+.nav-link-main {
+    transition: 0.3s;
+}
+.nav-link-main:hover {
+    transform: translateX(-3px);
+}
+
+/* link-1 */
+.link-1 {
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.1s;
+    color: var(--cl-tx-grey-blue-subtle);
+}
+.link-1:hover { /*hover*/
+    color: var(--cl-tx-blue-main);
+}
+
+/*? ─── Icons ───────────────────────────────────── */
+
+/* navbar-main-icon */
+.nav-main-icon {
+    transition: 0.3s;
+}
+.nav-link-main:hover .nav-main-icon {
+    transform: translateX(-3px) rotate(-10deg);
 }
