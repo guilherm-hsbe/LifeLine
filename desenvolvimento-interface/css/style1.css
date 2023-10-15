@@ -6,7 +6,7 @@
     --cl-tx-grey-blue-subtle: #637180;
 
     /*? color-background */
-    /*...empty*/
+    --cl-bg-blue-main: #1d5fdb;
     
     /*? size-pixel */
     --size-px-1: 12px;
@@ -36,6 +36,11 @@ footer {
     left: 0;
     width: 100%;
     text-align: center;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--cl-bg-blue-main);
+    --bs-tooltip-color: var(--bs-white);
 }
 
 /** ─── Componentes ────────────────────────────────────────────────────────────────────────── */
