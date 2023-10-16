@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifeline | Contato</title>
+
+    <!-- Ícone -->
+    <link rel="icon" href="../images/icons/stethoscope-solid-svgrepo-com.svg">
+
+    <!-- Fontes -->
+    <!--poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style1.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f8b51f3b83.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--! navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid mx-auto col-xxl-10 col-xl-10 col-lg-10 col-md-12">
+                <a class="navbar-brand fw-bold me-4 fs-4 nav-link-main" draggable="false" href="../../index.html">
+                    <i class="fa-solid fa-stethoscope me-1 nav-main-icon" style="color: #1d5fdb;"></i>
+                    Lifeline
+                </a>
+
+                <!--* navbar-toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <!--* navbar-links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav text-nowrap">
+                        <li class="nav-item">
+                            <a class="nav-link link-nav-1 active" aria-current="page" draggable="false" href="../../index.html">Início</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link link-nav-1" draggable="false" href="#">Saúde Mental</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link link-nav-1" draggable="false" href="#">Saúde Física</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link link-nav-1" draggable="false" href="#">Doenças</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--* search-bar -->
+                <div class="d-flex align-items-center z-1 position-relative w-50">
+                    <a class="position-absolute link-1" style="left:1rem; cursor:pointer;">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+
+                    <div id="searchBarLabel"
+                        class="position-absolute pe-1 ps-1 fw-bold rounded-2 bg-secondary-subtle user-select-none fs-14"
+                        style="right:0.5rem;">
+                        CTRL + K
+                    </div>
+
+                    <form class="w-100" role="search">
+                        <input type="search" id="searchBar" placeholder="Pesquisar..." aria-label="Search"
+                            class="form-control rounded-3 w-100 ps-5 border-0 bg-light">
+                    </form>
+                </div>
+
+                <div class="ms-3">
+                    <a href="" id="btnChangeTheme" class="p-2 text-nowrap">
+                        <i class="fa-solid fa-circle-half-stroke"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--! conteudo -->
+    <main>
+        <div class="container">
+            <div class="row pt-5">
+
+                <!--* esqueda-contato-form -->
+                <div class="col mx-auto">
+                    <div class="pt-5">
+                        <h1 class="fw-bold mb-4 fs-54">Nos Contate</h1>
+
+                        <!--* form -->
+                        <form class="w-75">
+                            
+                            <!-- nome -->
+                            <div class="d-flex mb-3 align-items-center z-1 position-relative w-100">
+                                <i class="fa-solid fa-user position-absolute" style="left:1rem"></i>
+                            
+                                <input type="text" placeholder="Nome" class="form-control rounded-3 w-100 ps-5 border-0 bg-light">
+                            </div>
+
+                            <!-- email -->
+                            <div class="d-flex mb-3 align-items-center z-1 position-relative w-100">
+                                <i class="fa-solid fa-envelope position-absolute" style="left:1rem"></i>
+                            
+                                <input type="email" placeholder="Email" class="form-control rounded-3 w-100 ps-5 border-0 bg-light">
+                            </div>
+
+                            <!-- pessoa -->
+                            <div class="d-flex mb-3 align-items-center z-1 position-relative w-100">
+                                <i class="fa-solid fa-user-doctor position-absolute" style="left:1rem"></i>
+
+                                <select class="form-select rounded-3 w-100 ps-5 border-0 bg-light" aria-label="Selecionar assunto">
+                                    <option selected disabled>
+                                        Você é...
+                                    </option>
+
+                                    <option value="1">
+                                        Profissional de saúde
+                                    </option>
+
+                                    <option value="2">
+                                        Paciente
+                                    </option>
+
+                                    <option value="3">
+                                        Outro
+                                    </option>
+                                </select>
+                            </div>
+
+                            <!-- tipo -->
+                            <div class="d-flex mb-3 align-items-center z-1 position-relative w-100">
+                                <i class="fa-solid fa-list position-absolute" style="left:1rem;"></i>
+
+                                <select class="form-select rounded-3 w-100 ps-5 border-0 bg-light" aria-label="Selecionar assunto">
+                                    <option selected disabled>
+                                        Selecione um assunto
+                                    </option>
+
+                                    <option value="1">
+                                        Saúde mental
+                                    </option>
+
+                                    <option value="2">
+                                        Saúde física
+                                    </option>
+
+                                    <option value="3">
+                                        Drogas
+                                    </option>
+                                </select>
+                            </div>
+
+                            <!-- mensagem -->
+                            <div class="d-flex mb-3 align-items-center z-1 position-relative w-100">
+                                <textarea id="" cols="30" rows="5" placeholder="Mensagem"
+                                    class="form-control rounded-3 w-100 ps-3 border-0 bg-light"></textarea>
+                            </div>
+
+                            <!-- submit -->
+                            <button type="submit" class="btn-1 mt-2 rounded-3 w-100">
+                                Enviar mensagem
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <!--* direita-contato-imagem -->
+                <div class="col mx-auto">
+                    <div>
+                        <img src="../images/photos/svg/drawkit-medical/SVG/Drawkit-Vector-Illustration-Medical-16.svg" alt=""
+                            class="user-select-none w-75" draggable="false">
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </main>
+
+    <!--! footer -->
+    <footer class="p-2 pt-3 bg-light text-dark">
+        <div class="row">
+            <div class="col text-center">
+                <h4 class="fw-bold">Lifeline</h4>
+                <p class="mb-2">&copy; 2023 Lifeline. Nenhum direito reservado.</p>
+
+                <p class="mb-0">
+                    <a href="" class="link-1" draggable="false">Sobre</a> 
+                    <span class="text-secondary user-select-none">|</span>
+
+                    <a href="desenvolvimento-interface/pages/contact.html" class="link-1" draggable="false">Contato</a>
+                    <span class="text-secondary user-select-none">|</span>
+
+                    <a href="" class="link-1" draggable="false">Política de Privacidade</a> 
+                    <span class="text-secondary user-select-none">|</span> 
+
+                    <a href="" class="link-1" draggable="false">Segurança</a> 
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Script -->
+    <script src="htps://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
