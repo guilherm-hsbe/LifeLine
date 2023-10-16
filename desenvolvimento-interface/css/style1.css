@@ -31,7 +31,6 @@ body {
 }
 
 footer {
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -103,4 +102,23 @@ footer {
 }
 .nav-link-main:hover .nav-main-icon {
     transform: translateX(-3px) rotate(-10deg);
+}
+
+/** ─── Responsividade ────────────────────────────────────────────────────────────────────────── */
+
+@media (max-width: 1199px) {
+    .div-contact-form form {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .div-contact-img {
+        display: none;
+    }
+    .div-contact-form {
+        display: grid;
+        justify-content: center;
+        padding: 0.5rem;
+    }
 }
