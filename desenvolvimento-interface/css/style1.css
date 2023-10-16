@@ -54,6 +54,26 @@ footer {
     color: var(--cl-tx-blue-main) !important;
 }
 
+/*? ─── Buttons ───────────────────────────────────── */
+
+/* button-1 */
+.btn-1 {
+    background-color: var(--cl-bg-blue-main);
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 0.4rem;
+    box-shadow: 0 5px 0 #1c3768;
+    transition: 0.1s;
+}
+.btn-1:hover { /*hover*/
+    background-color: #1969ff;
+}
+.btn-1:active { /*active*/
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
 /*? ─── Links ───────────────────────────────────── */
 
 /* navbar-link-main */
