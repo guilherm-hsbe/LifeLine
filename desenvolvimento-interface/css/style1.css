@@ -47,11 +47,6 @@ footer {
     text-align: center;
 }
 
-.custom-tooltip {
-    --bs-tooltip-bg: var(--cl-bg-blue-main);
-    --bs-tooltip-color: var(--bs-white);
-}
-
 /** ─── Componentes ────────────────────────────────────────────────────────────────────────── */
 
 /*? ─── Navbar ───────────────────────────────────── */

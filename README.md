@@ -2,6 +2,7 @@
 
 ## Índice
 1. [Visão Geral](#visão-geral)
+1. [Dependências](#dependências)
 1. [Instalação](#instalação)
 1. [Utilização](#utilização)
 1. [Funcionalidades](#funcionalidades)
@@ -14,6 +15,14 @@
 
 ## Visão Geral
 Plataforma de um portal de saúde que aborda questões como saúde mental, física, transtornos, etc.
+
+## Dependências
+Neste projeto, são utilizadas algumas bibliotecas e recursos de terceiros para melhorar o design e a funcionalidade do site. Abaixo estão as principais dependências:
+- [Bootstrap](https://getbootstrap.com/): Utilizado para o estilo responsivo do site.
+- [Font Awesome](https://fontawesome.com/): Fornece uma coleção de ícones de alta qualidade usados na interface.
+- [SVG Repo](https://www.svgrepo.com/): Fornece uma coleção variada de ícones usados na interface.
+- [Medical & Health Illustrations](https://www.drawkit.com/illustrations/medical-health-illustrations): Conjunto de SVGs gratuítos da DrawKit para determinados elementos do site.
+
 
 ## Instalação
 Você pode baixar este repositório diretamente por [este link](https://github.com/guilherm-hsbe/LifeLine/archive/refs/heads/main.zip) e em seguida descompactá-lo. Opcionalmente, se possuir o [git](https://git-scm.com/downloads) instalado em sua máquina/dispositivo, você pode clonar o respositório através do terminal. Siga o passo-a-passo:
